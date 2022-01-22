@@ -1,0 +1,14 @@
+.container {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  padding: 50px;
+}
+
+.usernames {
+  width: 100%;
+  background-color: #ccdcff;
+  padding: 0px 20px;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
