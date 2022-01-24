@@ -22,7 +22,7 @@ const UserEntry = props => {
     event.preventDefault();
     const age = parseInt(enteredAge);
 
-    if (isNaN(age) || enteredName === "") {
+    if (isNaN(age) || enteredName.trim() === "") {
       props.onInvalidInput("Please enter something 😊");
       resetForm();
       return;
